@@ -9,7 +9,7 @@ TD-Pipe: Temporally-Disaggregated Pipeline Parallelism Architecture for High-Thr
 </h5>
 
 <p align="center">
-| <a href="https://arxiv.org/abs/2506.10470"><b>Paper</b></a> |
+| <a href="https://dl.acm.org/doi/10.1145/3754598.3754621"><b>Paper</b></a> |
 </p>
 
 ## About
@@ -83,13 +83,14 @@ python3 benchmark/benchmark_throughput_predict.py \
 
 ## Citation
 
-If you use TD-Pipe for your research, please cite our [paper](https://arxiv.org/abs/2506.10470):
+If you use TD-Pipe for your research, please cite our [paper](https://dl.acm.org/doi/10.1145/3754598.3754621):
 
 ```bibtex
-@article{zhang2025td,
+@inproceedings{zhang2025td,
   title={TD-Pipe: Temporally-Disaggregated Pipeline Parallelism Architecture for High-Throughput LLM Inference},
   author={Zhang, Hongbin and Wei, Taosheng and Zheng, Zhenyi and Du, Jiangsu and Chen, Zhiguang and Lu, Yutong},
-  journal={arXiv preprint arXiv:2506.10470},
+  booktitle={Proceedings of the 54th International Conference on Parallel Processing},
+  pages={689--698},
   year={2025}
 }
 ```
